@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selection Sort</title>
+</head>
+<body>
+
+    <script>
+        let p=new PriorityQueue();
+
+var promise=new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let er=true;
+        if(!er){
+            console.log("The function is fectch");
+            resolve(2);
+        }else{
+            console.log("Sorry brother");
+            reject();
+        }
+    });
+});
+promise.then(function(value){
+    console.log(value);
+}).catch(function(){
+    console.log("error occur");
+});
+
+
+    </script>
+    
+</body>
+</html>
